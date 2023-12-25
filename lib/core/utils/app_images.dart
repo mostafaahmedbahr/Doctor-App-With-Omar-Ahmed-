@@ -1,11 +1,11 @@
-//
-// class AppImages
-// {
-//
-//   static const String logo =  "assets/images/logo.svg";
-//
-//
-//
-//
-//
-// }
+
+class AppImages
+{
+
+  static const String doctor =  "assets/images/doctor.png";
+
+
+
+
+
+}
