@@ -1,7 +1,7 @@
 import 'package:doctor_app_with_omar_ahmed/core/routing/routes.dart';
 import 'package:flutter/material.dart';
 
-import '../../features/on_boarding/on_boarding_screen.dart';
+import '../../features/on_boarding/ui/on_boarding_screen.dart';
 
 class AppRouter
 {
