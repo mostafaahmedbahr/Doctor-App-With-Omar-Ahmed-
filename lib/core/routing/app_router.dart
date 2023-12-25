@@ -1,6 +1,8 @@
 import 'package:doctor_app_with_omar_ahmed/core/routing/routes.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/on_boarding/on_boarding_screen.dart';
+
 class AppRouter
 {
 
@@ -10,7 +12,7 @@ class AppRouter
     {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(
-            builder: (_)=>const Placeholder(),
+            builder: (_)=>const OnBoardingScreen(),
         );
       case Routes.loginScreen:
         return MaterialPageRoute(
