@@ -1,5 +1,6 @@
 import 'package:doctor_app_with_omar_ahmed/core/routing/app_router.dart';
 import 'package:doctor_app_with_omar_ahmed/core/theme/app_colors.dart';
+import 'package:doctor_app_with_omar_ahmed/test_scroll.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -35,8 +36,9 @@ class DocApp extends StatelessWidget {
                 primaryColor: AppColors.mainBlue,
                 scaffoldBackgroundColor: Colors.white,
               ),
-            onGenerateRoute: appRouter.generateRoute,
-        initialRoute: Routes.onBoardingScreen,
+        //     onGenerateRoute: appRouter.generateRoute,
+        // initialRoute: Routes.onBoardingScreen,
+        home: ScrollableImageScreen(),
       ),
     );
 
